@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class Day1_Intro{
+
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int sum = a + b + c;
+
+        System.out.println("The sum of " + a + ", " + b + ", and " + c + " is: " + sum);
+    }
+}
