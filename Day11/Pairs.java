@@ -22,7 +22,7 @@ class Pairs{
         }
     }
 
-        static void diffEqualsKPairs(int[] ar, int k){
+    static void diffEqualsKPairs(int[] ar, int k){
         for(int i = 0; i < ar.length-1; i++){
             for(int j = i+1; j < ar.length; j++){
                 if(ar[i] - ar[j] == k || ar[j] - ar[i] == k){
